@@ -1,0 +1,27 @@
+<?php require_once "header.html"; ?>
+
+<section id="contenuDroite">
+	<section>
+		<h1 class="hlateraux">Profil</h1>
+		<img id="imgNiv" src="../images/imageDebutant.png"/>
+		<br/> <br/>
+		<span id="mail"> <strong>keke.mail@gmail.com</strong> </span>
+		<br/>
+		<a href="../modifierCompte/modifierCompte.html">
+			<button class="boutonDroite"> Modifier mon compte </button>
+		</a>
+		<button class="boutonDroite"> Se déconnecter </button>
+	</section>
+	<section id="contenuDroiteBas">
+		<h1 class="hlateraux">Modifier le thème</h1>
+		Sélectionnez votre niveau :
+		<br/>
+		<select id="menuTheme" onchange="theme()">
+			<option selected="selected">Débutant</option>
+			<option>Intermédiaire</option>
+			<option>Confirmé</option>
+		</select>
+	</section>
+</section>
+
+<?php require_once "footer.html"; ?>
