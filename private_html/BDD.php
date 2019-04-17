@@ -11,7 +11,7 @@
 		{
 			$host = "localhost";
 			$user = "bdd";
-			$pwd = "34GukY4FybL~>(8;";
+			$pwd = "motDePasse;
 			$db = "keke";
 			
 			//Se connecte à la base s'il peut, sinon renvoi l'erreur
